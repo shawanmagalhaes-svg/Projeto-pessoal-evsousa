@@ -1,7 +1,5 @@
-// quantidade de horas dormidas
 let horasDormidas = 5
 
-// quantidade de horas dormidas e exibe uma mensagem correspondente
 if (horasDormidas >= 12) {
   console.log("Uau! Você dormiu bastante, talvez até demais.")
 } else if (horasDormidas >= 10) {
@@ -26,7 +24,6 @@ if (horasDormidas >= 12) {
   console.log("Você não dormiu nada! Isso é extremamente prejudicial.")
 }
 
-// as recomendações adicionais com base nas horas dormidas
 if (horasDormidas < 6) {
   console.log("Sugestão: tente ir para cama mais cedo.")
   console.log("Evite cafeína à noite.")
@@ -42,10 +39,8 @@ if (horasDormidas < 6) {
   console.log("Se isso for frequente, considere consultar um médico.")
 }
 
-// Mensagem de dics
 console.log("Lembre-se: dormir bem é essencial para produtividade e saúde!")
 
-// Exemplo de cálculo de déficit de sono
 let sonoIdeal = 8
 let deficit = sonoIdeal - horasDormidas
 
@@ -57,5 +52,5 @@ if (deficit > 0) {
   console.log("Você dormiu exatamente o ideal de sono!")
 }
 
-// Mensagem final do meu projeto
-console.log("Cuide do seu sono, pois ele cuida de você!")
+
+console.log("Cuide do seu sono, pois ele cuida de você meu chapa")
